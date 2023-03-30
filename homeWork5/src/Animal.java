@@ -28,13 +28,13 @@ class Dog extends Animal {
     }
 
     public void run(int index) {
-        if(index <= 500) {
+        if (index <= 500) {
             System.out.println("Волчок прбежал " + index + " м.");
         }
     }
 
     public void swim(int index) {
-        if(index <= 10) {
+        if (index <= 10) {
             System.out.println("Волчок проплыл " + index + " м.");
         }
     }
@@ -49,7 +49,7 @@ class Cat extends Animal {
     }
 
     public void run(int index) {
-        if(index <= 200) {
+        if (index <= 200) {
             System.out.println("Гришка пробожал " + index + " м.");
         }
     }
